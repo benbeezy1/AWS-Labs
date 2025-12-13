@@ -1,9 +1,10 @@
-<h1>Create EC2 Instance and Connect to a windows machine using RDC</h1>
+<h1>Create a windows EC2 Instance and Connect it using Remote Desktop Connnection (RDC)</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 
 <h2>Description</h2>
+In this lab, a windows EC2 instance was launched  using Amazon Machine Images (AMI), AWS provided preconfigured instance templates. Specically, we created this instance from microsoft windows server. And the goal was to connect to this instance using Remote Desktop Connection (RDC).
 This lab demonstrates how to launch a Windows EC2 instance and connect to it using Remote Desktop Connection (RDC).  
 The objective is to understand the core components required to deploy and access a Windows virtual machine in AWS, including AMIs, instance types, key pairs, VPC networking, and security group configuration.
 <br /><br />
@@ -13,10 +14,14 @@ The objective is to understand the core components required to deploy and access
 - <b>Amazon EC2</b>  
 - <b>VPC</b>  
 - <b>Security Groups</b>  
-- <b>IAM</b>
+- <b>AMI</b>
+- <b>RDC app</b>
 <br />
 
-<h2>Environments Used</h2>
+<h2>Architectural Diagram</h2>
+
+
+<h2>Environments</h2>
 
 - <b>AWS Management Console</b>  
 - <b>Windows Remote Desktop Client</b> (RDC)
